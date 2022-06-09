@@ -16,7 +16,6 @@
   --bodyColor: #f6f6f6;
 }
 
-
 body {
   color: var(--mainBlack);
   font-family: "Lato", sans-serif;
@@ -145,14 +144,17 @@ body {
   transform: scale(0.98);
 }
 
-
-
-@media only screen and (max-width: 500px){
-  ul.menu{display: none;}
+@media only screen and (max-width: 500px) {
+  ul.menu {
+    display: none;
   }
-  
-  @media only screen and (min-width: 500px){
-    ul.menu{display: block;}
-    i.fa.fa-bars{display: none;}
-  
-    }
+}
+
+@media only screen and (min-width: 500px) {
+  ul.menu {
+    display: block;
+  }
+  i.fa.fa-bars {
+    display: none;
+  }
+}
